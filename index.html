@@ -7,118 +7,30 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
-    <title>Frontend Mentor | QR code component</title>
-    <style>
-
-
-
-        :root{
-            --width:250px;
-        }
-
-        *{
-            box-sizing:border-box;    
-        }
-
-
-        html{
-            height: 100%;
-            margin: 0px;
-            
-        }
-        
-        main{
-            display: grid;
-
-            margin: 0px;
-            height: 100%;
-            background-color: hsl(212, 45%, 89%);
-
-        }
-
-        article{
-            margin:auto;
-            border: none;
-            background-color: hsl(0, 0%, 100%);
-            width: 300px;
-            font-size: 15px;
-            font-family: "Outfit";
-            border-radius: 5%;
-            display:grid;
-
-
-        }
-
-
-
-        body{
-            border:1px solid yellow;
-            height:100%;
-            margin:0px;
-
-            ;
-
-        img{
-            width: var(--width);
-            position:relative;
-            margin: 30px auto 10px auto;
-        }
-
-
-        }
-
-        .attribution {
-        font-size: 11px;
-        width:100%;
-        text-align:center;
-        height: 100px;
-        }
-
-        section{
-            width:var(--width);
-            margin:auto;
-
-        }
-
-
-
-
-
-
-
-        .attribution a { color: hsl(228, 45%, 44%); }
-
-        h1{
-        text-align: center;
-        font-weight: 700;
-        color:hsl(218, 44%, 22%);
-        }
-        p{
-
-        text-align: center;
-        font-weight: 400;
-        color:hsl(220, 15%, 55%);
-        }
-
-
-    </style>
+    <link rel="stylesheet" href="styles.css">
+    <title>Frontend Mentor | QR code component</title>      
 </head>
+
 <body>
-
 <main>
-    <article>
-        <img src="images/image-qr-code.png" alt="qr-code">
-        <section>
-        <h1>Improve your front-end skills by building projects</h1>
-        <p>Scan de QR to visit Frontend Mentor and take your coding skills to the next level</p></section>
+    <article >
 
+        <section class="top-half"><img src="images/image-qr-code.png" alt="qr code"></section>
+        <section class="low-half">
+            <h1>Improve your front-end skills by building projects</h1>
+            <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        </section>
 
     </article>
-    <div class="attribution">
+</main> 
+<footer> 
+        <div class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-        Coded by <a href="#">Your Name Here</a>.
-    </div>
-</main>
+        Coded by <a href="#">Razim</a>.
+        </div>
+</footer>  
+
+
 
 
 </body>
