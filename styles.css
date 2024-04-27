@@ -1,4 +1,5 @@
-*{box-sizing: border-box;
+*{
+    box-sizing: border-box;
     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif  /*fallback*/
    }
    
@@ -10,9 +11,9 @@
 
    main{
         height: 95%;
-        display: flex;              /*div centered*/
-        justify-content: center;    /*in the main element*/
-        align-items: center;        /*not the body*/
+        display: flex;               /*div centered*/
+        justify-content: center;     /*in the main element*/
+        align-items: center;         /*not the body*/
    }
    
    article{
@@ -50,8 +51,8 @@
        font-family:"Outfit";
        font-weight: 700;
        font-size: 1.02em;
-   
    }
+   
    p{
        text-align: center;
        color:hsl(220, 15%, 55%);
